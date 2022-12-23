@@ -12,6 +12,14 @@ def hammer_pickOneMemeber():
     result = random.sample(teamJDE, 1)
     return result
 
+def _task_1():
+  vowel_characters = ["a", "e", "i", "o", "u"]
+  z = 0
+  for y in vowel_characters:
+    count = x.count(y)
+    z = z + count
+  return z
+print("The total number of words in the prargraph that contains vowel characters(a, e, i, o u) is : " + str(_task_1()))
 
 if __name__ == "__main__":
     print(hammer_pickOneMemeber())
