@@ -20,9 +20,16 @@ def taskTwo():
   new_txt = ""
 
   for char in txt: 
-    new_txt += chr(ord(char) + 1)  
+    if not char.isalpha(): 
+        new_txt = new_txt + char
+    elif char.isupper():
+        new_txt = new_txt + chr((ord(char) + 1 - 65) % 26 + 65) # for uppercase Z
+    else:
+        new_txt = new_txt + chr((ord(char) + 1 - 97) % 26 + 97) # for lowercase z
+    
 
-  return (x)
+  return (new_txt)
+    
 if __name__ == "__main__":
     print(hammer_pickOneMemeber())
     # print(taskOne())
