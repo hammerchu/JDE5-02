@@ -27,3 +27,4 @@ if __name__ == "__main__":
     # Task-3 - Reverse the entire paragraph line by line e.g. I am a boy -> yob a ma I
 
     # Task-4 - Reverse the order of character of each word e.g. I am a boy -> I ma a yob
+
