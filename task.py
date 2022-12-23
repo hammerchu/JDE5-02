@@ -12,8 +12,6 @@ def hammer_pickOneMemeber():
     result = random.sample(teamJDE, 1)
     return result
 
-
-
 def _task_1():
   vowel_characters = ["a", "e", "i", "o", "u"]
   z = 0
