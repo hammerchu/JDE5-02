@@ -22,7 +22,6 @@ def taskTwo():
   for char in txt: 
     new_txt += chr(ord(char) + 1)  
 
-
   return (x)
 if __name__ == "__main__":
     print(hammer_pickOneMemeber())
