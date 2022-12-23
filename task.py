@@ -11,12 +11,23 @@ def hammer_pickOneMemeber():
     teamJDE = ['hammer', 'billy', 'chistina']
     result = random.sample(teamJDE, 1)
     return result
+    
+def taskTwo():
+  text = './news.txt'
+  f = open(text, "r")
+  txt = f.read()
+  
+  new_txt = ""
+
+  for char in txt: 
+    new_txt += chr(ord(char) + 1)  
 
 
+  return (x)
 if __name__ == "__main__":
     print(hammer_pickOneMemeber())
     # print(taskOne())
-    # print(taskTwo())
+    print(taskTwo())
     # print(taskThree())
     # print(taskFour())
 
